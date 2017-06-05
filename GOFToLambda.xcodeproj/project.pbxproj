@@ -26,6 +26,7 @@
 		1118EAE81EE572D800B9FC63 /* StrategyLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAE71EE572D800B9FC63 /* StrategyLambda.swift */; };
 		1118EAEB1EE5748200B9FC63 /* TemplateGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAEA1EE5748200B9FC63 /* TemplateGOF.swift */; };
 		1118EAED1EE5748E00B9FC63 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAEC1EE5748E00B9FC63 /* Resource.swift */; };
+		1118EAEF1EE5770400B9FC63 /* TemplateLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAEE1EE5770400B9FC63 /* TemplateLambda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,7 @@
 		1118EAE71EE572D800B9FC63 /* StrategyLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyLambda.swift; sourceTree = "<group>"; };
 		1118EAEA1EE5748200B9FC63 /* TemplateGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateGOF.swift; sourceTree = "<group>"; };
 		1118EAEC1EE5748E00B9FC63 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		1118EAEE1EE5770400B9FC63 /* TemplateLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateLambda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			children = (
 				1118EAEA1EE5748200B9FC63 /* TemplateGOF.swift */,
 				1118EAEC1EE5748E00B9FC63 /* Resource.swift */,
+				1118EAEE1EE5770400B9FC63 /* TemplateLambda.swift */,
 			);
 			name = Template;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				1118EAC61EE5500A00B9FC63 /* File.swift in Sources */,
 				1118EAD91EE5636300B9FC63 /* InterpreterLambda.swift in Sources */,
 				1118EAD21EE55A6200B9FC63 /* DecoratorGOF.swift in Sources */,
+				1118EAEF1EE5770400B9FC63 /* TemplateLambda.swift in Sources */,
 				1118EAED1EE5748E00B9FC63 /* Resource.swift in Sources */,
 				1118EADE1EE565BF00B9FC63 /* IteratorLambda.swift in Sources */,
 				1118EAE61EE5713B00B9FC63 /* StrategyGOF.swift in Sources */,
