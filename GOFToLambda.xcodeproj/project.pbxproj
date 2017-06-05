@@ -27,6 +27,7 @@
 		1118EAEB1EE5748200B9FC63 /* TemplateGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAEA1EE5748200B9FC63 /* TemplateGOF.swift */; };
 		1118EAED1EE5748E00B9FC63 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAEC1EE5748E00B9FC63 /* Resource.swift */; };
 		1118EAEF1EE5770400B9FC63 /* TemplateLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAEE1EE5770400B9FC63 /* TemplateLambda.swift */; };
+		1118EAF21EE5784E00B9FC63 /* VisitorGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAF11EE5784E00B9FC63 /* VisitorGOF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,7 @@
 		1118EAEA1EE5748200B9FC63 /* TemplateGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateGOF.swift; sourceTree = "<group>"; };
 		1118EAEC1EE5748E00B9FC63 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		1118EAEE1EE5770400B9FC63 /* TemplateLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateLambda.swift; sourceTree = "<group>"; };
+		1118EAF11EE5784E00B9FC63 /* VisitorGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorGOF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1118EADF1EE5662400B9FC63 /* Observer */,
 				1118EAE41EE5712B00B9FC63 /* Strategy */,
 				1118EAE91EE5747400B9FC63 /* Template */,
+				1118EAF01EE5783D00B9FC63 /* Visitor */,
 				1118EABB1EE54F2A00B9FC63 /* main.swift */,
 			);
 			path = GOFToLambda;
@@ -183,6 +186,14 @@
 			name = Template;
 			sourceTree = "<group>";
 		};
+		1118EAF01EE5783D00B9FC63 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				1118EAF11EE5784E00B9FC63 /* VisitorGOF.swift */,
+			);
+			name = Visitor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -260,6 +271,7 @@
 				1118EAE61EE5713B00B9FC63 /* StrategyGOF.swift in Sources */,
 				1118EAD41EE55C9600B9FC63 /* DecoratorLambda.swift in Sources */,
 				1118EAD01EE559F300B9FC63 /* Taxes.swift in Sources */,
+				1118EAF21EE5784E00B9FC63 /* VisitorGOF.swift in Sources */,
 				1118EAC41EE54FC200B9FC63 /* ChainOfResponsibilityGOF.swift in Sources */,
 				1118EAC81EE553DC00B9FC63 /* ChainOfResponsibilityLambda.swift in Sources */,
 			);
