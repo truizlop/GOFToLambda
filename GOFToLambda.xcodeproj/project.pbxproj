@@ -22,6 +22,7 @@
 		1118EADE1EE565BF00B9FC63 /* IteratorLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EADD1EE565BF00B9FC63 /* IteratorLambda.swift */; };
 		1118EAE11EE56C8700B9FC63 /* ObserverGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAE01EE56C8700B9FC63 /* ObserverGOF.swift */; };
 		1118EAE31EE56F7500B9FC63 /* ObserverLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAE21EE56F7500B9FC63 /* ObserverLambda.swift */; };
+		1118EAE61EE5713B00B9FC63 /* StrategyGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAE51EE5713B00B9FC63 /* StrategyGOF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		1118EADD1EE565BF00B9FC63 /* IteratorLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IteratorLambda.swift; sourceTree = "<group>"; };
 		1118EAE01EE56C8700B9FC63 /* ObserverGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverGOF.swift; sourceTree = "<group>"; };
 		1118EAE21EE56F7500B9FC63 /* ObserverLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverLambda.swift; sourceTree = "<group>"; };
+		1118EAE51EE5713B00B9FC63 /* StrategyGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyGOF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				1118EAD51EE5602800B9FC63 /* Interpreter */,
 				1118EADA1EE5653200B9FC63 /* Iterator */,
 				1118EADF1EE5662400B9FC63 /* Observer */,
+				1118EAE41EE5712B00B9FC63 /* Strategy */,
 				1118EABB1EE54F2A00B9FC63 /* main.swift */,
 			);
 			path = GOFToLambda;
@@ -150,6 +153,14 @@
 				1118EAE21EE56F7500B9FC63 /* ObserverLambda.swift */,
 			);
 			name = Observer;
+			sourceTree = "<group>";
+		};
+		1118EAE41EE5712B00B9FC63 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				1118EAE51EE5713B00B9FC63 /* StrategyGOF.swift */,
+			);
+			name = Strategy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 				1118EAD91EE5636300B9FC63 /* InterpreterLambda.swift in Sources */,
 				1118EAD21EE55A6200B9FC63 /* DecoratorGOF.swift in Sources */,
 				1118EADE1EE565BF00B9FC63 /* IteratorLambda.swift in Sources */,
+				1118EAE61EE5713B00B9FC63 /* StrategyGOF.swift in Sources */,
 				1118EAD41EE55C9600B9FC63 /* DecoratorLambda.swift in Sources */,
 				1118EAD01EE559F300B9FC63 /* Taxes.swift in Sources */,
 				1118EAC41EE54FC200B9FC63 /* ChainOfResponsibilityGOF.swift in Sources */,
