@@ -28,6 +28,7 @@
 		1118EAED1EE5748E00B9FC63 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAEC1EE5748E00B9FC63 /* Resource.swift */; };
 		1118EAEF1EE5770400B9FC63 /* TemplateLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAEE1EE5770400B9FC63 /* TemplateLambda.swift */; };
 		1118EAF21EE5784E00B9FC63 /* VisitorGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAF11EE5784E00B9FC63 /* VisitorGOF.swift */; };
+		1118EAF41EE5829800B9FC63 /* VisitorLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAF31EE5829800B9FC63 /* VisitorLambda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		1118EAEC1EE5748E00B9FC63 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		1118EAEE1EE5770400B9FC63 /* TemplateLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateLambda.swift; sourceTree = "<group>"; };
 		1118EAF11EE5784E00B9FC63 /* VisitorGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorGOF.swift; sourceTree = "<group>"; };
+		1118EAF31EE5829800B9FC63 /* VisitorLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorLambda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				1118EAF11EE5784E00B9FC63 /* VisitorGOF.swift */,
+				1118EAF31EE5829800B9FC63 /* VisitorLambda.swift */,
 			);
 			name = Visitor;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				1118EAE81EE572D800B9FC63 /* StrategyLambda.swift in Sources */,
 				1118EACD1EE558A800B9FC63 /* CommandLambda.swift in Sources */,
 				1118EAEB1EE5748200B9FC63 /* TemplateGOF.swift in Sources */,
+				1118EAF41EE5829800B9FC63 /* VisitorLambda.swift in Sources */,
 				1118EADC1EE5654500B9FC63 /* IteratorGOF.swift in Sources */,
 				1118EAD71EE5603A00B9FC63 /* InterpreterGOF.swift in Sources */,
 				1118EAE11EE56C8700B9FC63 /* ObserverGOF.swift in Sources */,
