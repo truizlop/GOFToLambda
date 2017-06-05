@@ -16,6 +16,7 @@
 		1118EAD01EE559F300B9FC63 /* Taxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EACF1EE559F300B9FC63 /* Taxes.swift */; };
 		1118EAD21EE55A6200B9FC63 /* DecoratorGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAD11EE55A6200B9FC63 /* DecoratorGOF.swift */; };
 		1118EAD41EE55C9600B9FC63 /* DecoratorLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAD31EE55C9600B9FC63 /* DecoratorLambda.swift */; };
+		1118EAD71EE5603A00B9FC63 /* InterpreterGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAD61EE5603A00B9FC63 /* InterpreterGOF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		1118EACF1EE559F300B9FC63 /* Taxes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxes.swift; sourceTree = "<group>"; };
 		1118EAD11EE55A6200B9FC63 /* DecoratorGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoratorGOF.swift; sourceTree = "<group>"; };
 		1118EAD31EE55C9600B9FC63 /* DecoratorLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoratorLambda.swift; sourceTree = "<group>"; };
+		1118EAD61EE5603A00B9FC63 /* InterpreterGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterpreterGOF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				1118EAC21EE54F3F00B9FC63 /* ChainOfResponsibility */,
 				1118EAC91EE5575800B9FC63 /* Command */,
 				1118EACE1EE559E100B9FC63 /* Decorator */,
+				1118EAD51EE5602800B9FC63 /* Interpreter */,
 				1118EABB1EE54F2A00B9FC63 /* main.swift */,
 			);
 			path = GOFToLambda;
@@ -108,6 +111,14 @@
 				1118EAD31EE55C9600B9FC63 /* DecoratorLambda.swift */,
 			);
 			name = Decorator;
+			sourceTree = "<group>";
+		};
+		1118EAD51EE5602800B9FC63 /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				1118EAD61EE5603A00B9FC63 /* InterpreterGOF.swift */,
+			);
+			name = Interpreter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 				1118EACB1EE5577500B9FC63 /* CommandGOF.swift in Sources */,
 				1118EABC1EE54F2A00B9FC63 /* main.swift in Sources */,
 				1118EACD1EE558A800B9FC63 /* CommandLambda.swift in Sources */,
+				1118EAD71EE5603A00B9FC63 /* InterpreterGOF.swift in Sources */,
 				1118EAC61EE5500A00B9FC63 /* File.swift in Sources */,
 				1118EAD21EE55A6200B9FC63 /* DecoratorGOF.swift in Sources */,
 				1118EAD41EE55C9600B9FC63 /* DecoratorLambda.swift in Sources */,
