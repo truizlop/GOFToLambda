@@ -13,6 +13,8 @@
 		1118EAC81EE553DC00B9FC63 /* ChainOfResponsibilityLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAC71EE553DC00B9FC63 /* ChainOfResponsibilityLambda.swift */; };
 		1118EACB1EE5577500B9FC63 /* CommandGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EACA1EE5577500B9FC63 /* CommandGOF.swift */; };
 		1118EACD1EE558A800B9FC63 /* CommandLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EACC1EE558A800B9FC63 /* CommandLambda.swift */; };
+		1118EAD01EE559F300B9FC63 /* Taxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EACF1EE559F300B9FC63 /* Taxes.swift */; };
+		1118EAD21EE55A6200B9FC63 /* DecoratorGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAD11EE55A6200B9FC63 /* DecoratorGOF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		1118EAC71EE553DC00B9FC63 /* ChainOfResponsibilityLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityLambda.swift; sourceTree = "<group>"; };
 		1118EACA1EE5577500B9FC63 /* CommandGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandGOF.swift; sourceTree = "<group>"; };
 		1118EACC1EE558A800B9FC63 /* CommandLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandLambda.swift; sourceTree = "<group>"; };
+		1118EACF1EE559F300B9FC63 /* Taxes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxes.swift; sourceTree = "<group>"; };
+		1118EAD11EE55A6200B9FC63 /* DecoratorGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoratorGOF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 			children = (
 				1118EAC21EE54F3F00B9FC63 /* ChainOfResponsibility */,
 				1118EAC91EE5575800B9FC63 /* Command */,
+				1118EACE1EE559E100B9FC63 /* Decorator */,
 				1118EABB1EE54F2A00B9FC63 /* main.swift */,
 			);
 			path = GOFToLambda;
@@ -91,6 +96,15 @@
 				1118EACC1EE558A800B9FC63 /* CommandLambda.swift */,
 			);
 			name = Command;
+			sourceTree = "<group>";
+		};
+		1118EACE1EE559E100B9FC63 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				1118EACF1EE559F300B9FC63 /* Taxes.swift */,
+				1118EAD11EE55A6200B9FC63 /* DecoratorGOF.swift */,
+			);
+			name = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +170,8 @@
 				1118EABC1EE54F2A00B9FC63 /* main.swift in Sources */,
 				1118EACD1EE558A800B9FC63 /* CommandLambda.swift in Sources */,
 				1118EAC61EE5500A00B9FC63 /* File.swift in Sources */,
+				1118EAD21EE55A6200B9FC63 /* DecoratorGOF.swift in Sources */,
+				1118EAD01EE559F300B9FC63 /* Taxes.swift in Sources */,
 				1118EAC41EE54FC200B9FC63 /* ChainOfResponsibilityGOF.swift in Sources */,
 				1118EAC81EE553DC00B9FC63 /* ChainOfResponsibilityLambda.swift in Sources */,
 			);
