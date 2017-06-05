@@ -24,6 +24,8 @@
 		1118EAE31EE56F7500B9FC63 /* ObserverLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAE21EE56F7500B9FC63 /* ObserverLambda.swift */; };
 		1118EAE61EE5713B00B9FC63 /* StrategyGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAE51EE5713B00B9FC63 /* StrategyGOF.swift */; };
 		1118EAE81EE572D800B9FC63 /* StrategyLambda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAE71EE572D800B9FC63 /* StrategyLambda.swift */; };
+		1118EAEB1EE5748200B9FC63 /* TemplateGOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAEA1EE5748200B9FC63 /* TemplateGOF.swift */; };
+		1118EAED1EE5748E00B9FC63 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118EAEC1EE5748E00B9FC63 /* Resource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +59,8 @@
 		1118EAE21EE56F7500B9FC63 /* ObserverLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverLambda.swift; sourceTree = "<group>"; };
 		1118EAE51EE5713B00B9FC63 /* StrategyGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyGOF.swift; sourceTree = "<group>"; };
 		1118EAE71EE572D800B9FC63 /* StrategyLambda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyLambda.swift; sourceTree = "<group>"; };
+		1118EAEA1EE5748200B9FC63 /* TemplateGOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateGOF.swift; sourceTree = "<group>"; };
+		1118EAEC1EE5748E00B9FC63 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 				1118EADA1EE5653200B9FC63 /* Iterator */,
 				1118EADF1EE5662400B9FC63 /* Observer */,
 				1118EAE41EE5712B00B9FC63 /* Strategy */,
+				1118EAE91EE5747400B9FC63 /* Template */,
 				1118EABB1EE54F2A00B9FC63 /* main.swift */,
 			);
 			path = GOFToLambda;
@@ -166,6 +171,15 @@
 			name = Strategy;
 			sourceTree = "<group>";
 		};
+		1118EAE91EE5747400B9FC63 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				1118EAEA1EE5748200B9FC63 /* TemplateGOF.swift */,
+				1118EAEC1EE5748E00B9FC63 /* Resource.swift */,
+			);
+			name = Template;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,6 +243,7 @@
 				1118EABC1EE54F2A00B9FC63 /* main.swift in Sources */,
 				1118EAE81EE572D800B9FC63 /* StrategyLambda.swift in Sources */,
 				1118EACD1EE558A800B9FC63 /* CommandLambda.swift in Sources */,
+				1118EAEB1EE5748200B9FC63 /* TemplateGOF.swift in Sources */,
 				1118EADC1EE5654500B9FC63 /* IteratorGOF.swift in Sources */,
 				1118EAD71EE5603A00B9FC63 /* InterpreterGOF.swift in Sources */,
 				1118EAE11EE56C8700B9FC63 /* ObserverGOF.swift in Sources */,
@@ -236,6 +251,7 @@
 				1118EAC61EE5500A00B9FC63 /* File.swift in Sources */,
 				1118EAD91EE5636300B9FC63 /* InterpreterLambda.swift in Sources */,
 				1118EAD21EE55A6200B9FC63 /* DecoratorGOF.swift in Sources */,
+				1118EAED1EE5748E00B9FC63 /* Resource.swift in Sources */,
 				1118EADE1EE565BF00B9FC63 /* IteratorLambda.swift in Sources */,
 				1118EAE61EE5713B00B9FC63 /* StrategyGOF.swift in Sources */,
 				1118EAD41EE55C9600B9FC63 /* DecoratorLambda.swift in Sources */,
