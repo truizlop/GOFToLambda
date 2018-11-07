@@ -39,7 +39,7 @@ class TextFileParser : AbstractFileParser {
 
 class PresentationFileParser : AbstractFileParser {
     override func parse(file: File) -> String {
-        if file.type == .TEXT {
+        if file.type == .PRESENTATION {
             return "Presentation file: \(file.content)"
         } else if let next = self.next {
             return next.parse(file: file)
