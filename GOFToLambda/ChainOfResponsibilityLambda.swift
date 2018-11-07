@@ -45,7 +45,7 @@ func runChainOfResponsibilityLambda() {
     let song = File(type: .AUDIO, content: "Dream Theater - The Astonishing")
     
     let result = [parseText, parsePresentation, parseAudio, parseVideo]
-                .flatMap{ f in f(song) }.first
+                .compactMap{ f in f(song) }.first
     
     if let result = result {
         print(result)

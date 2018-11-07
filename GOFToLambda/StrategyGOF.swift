@@ -35,7 +35,7 @@ struct ErrorTextFormatter : TextFormatter {
 
 struct ShortTextFormatter : TextFormatter {
     func filter(text: String) -> Bool {
-        return text.characters.count < 20
+        return text.count < 20
     }
     
     func format(text: String) -> String {

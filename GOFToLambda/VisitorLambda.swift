@@ -47,11 +47,12 @@ func runVisitorLambda() {
         }.reduce(0, +)
     print("Total area = \(totalArea)")
     
-    let totalPerimeter = figures.map{
+    let perimeters = figures.map{
         $0.accept(onSquare: { square in 4 * square.side },
                   onCircle: { circle in 2 * .pi * circle.radius },
                   onRectangle: { rectangle in 2 * rectangle.width + 2 * rectangle.height })
-        }.reduce(0, +)
+        }
+    let totalPerimeter = perimeters.reduce(0, +)
     print("Total perimeter = \(totalPerimeter)")
 }
 
