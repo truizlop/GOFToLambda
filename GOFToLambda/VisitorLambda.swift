@@ -9,53 +9,48 @@
 import Foundation
 
 enum Shape {
-    case square(_ : Square2)
-    case circle(_ : Circle2)
-    case rectangle(_ : Rectangle2)
-    
-    func accept<T>(onSquare : (Square2) -> T,
-                onCircle : (Circle2) -> T,
-                onRectangle : (Rectangle2) -> T) -> T {
+    case square(side: Double)
+    case circle(radius: Double)
+    case rectangle(width: Double, height: Double)
+}
+
+extension Shape {
+    func area() -> Double {
         switch self {
-            case let .square(square): return onSquare(square)
-            case let .circle(circle): return onCircle(circle)
-            case let .rectangle(rectangle): return onRectangle(rectangle)
+        case .square(let side):
+            return side * side
+        case .circle(let radius):
+            return radius * radius * .pi
+        case .rectangle(let width, let height):
+            return height * width
         }
     }
 }
 
-struct Square2 {
-    let side : Double
+extension Shape {
+    func perimeter() -> Double {
+        switch self {
+        case .square(let side):
+            return 4 * side
+        case .circle(let radius):
+            return 2 * .pi * radius
+        case .rectangle(let width, let height):
+            return 2 * width + 2 * height
+        }
+    }
 }
 
-struct Circle2 {
-    let radius : Double
-}
-
-struct Rectangle2 {
-    let width : Double
-    let height : Double
+func sumOn<A, B: Numeric>(_ xs: [A], _ f: (A) -> B) -> B {
+    return xs.map(f).reduce(0, +)
 }
 
 func runVisitorLambda() {
-    let figures : [Shape] = [.circle(Circle2(radius: 4)), .square(Square2(side: 5)), .rectangle(Rectangle2(width: 6, height: 7))]
-    
-    let totalArea = figures.map{
-        $0.accept(onSquare: { square in square.side * square.side },
-                  onCircle: { circle in circle.radius * circle.radius * .pi },
-                  onRectangle: { rectangle in rectangle.height * rectangle.width })
-        }.reduce(0, +)
-    print("Total area = \(totalArea)")
-    
-    let perimeters = figures.map{
-        $0.accept(onSquare: { square in 4 * square.side },
-                  onCircle: { circle in 2 * .pi * circle.radius },
-                  onRectangle: { rectangle in 2 * rectangle.width + 2 * rectangle.height })
-        }
-    let totalPerimeter = perimeters.reduce(0, +)
-    print("Total perimeter = \(totalPerimeter)")
+    let figures: [Shape] = [
+        .circle(radius: 4),
+        .square(side: 5),
+        .rectangle(width: 6, height: 7)
+    ]
+
+    print("Total area = \(sumOn(figures) { $0.area() })")
+    print("Total perimeter = \(sumOn(figures) { $0.perimeter() })")
 }
-
-
-
-
